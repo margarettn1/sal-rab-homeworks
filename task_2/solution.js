@@ -60,7 +60,7 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
 
     // создайте переменную totalSum
     // присвойте totalSum значение productsSum
-    let totalSum = productSum;
+    let totalSum = productsSum;
 
     // уменьшите totalSum на discountSum
     console.log(totalSum - discountSum);
